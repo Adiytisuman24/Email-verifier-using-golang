@@ -1,0 +1,14 @@
+{
+  "name": "email-verifier-backend",
+  "version": "1.0.0",
+  "description": "Email verification backend with syntax, domain, and SMTP checking",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dns": "^0.2.2"
+  }
+}
